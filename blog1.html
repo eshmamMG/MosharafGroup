@@ -22,106 +22,53 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="sb/css/style.css">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
 </script>
-
 </head>
-
 <body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
       <div class="logo me-auto">
-        <h1><a href="index.html"></a></h1>
-        
+        <h1><a href="index.html"></a></h1>       
       </div>
-
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li class="dropdown"><a href="#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="index.html#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="md.html">Our Respected MD</a></li>
                <li><a class="nav-link scrollto" href="directors.html">Honourable Directors</a></li>
-              <!-- <li><a class="nav-link scrollto" href="about.html">About Us</a></li> -->
-              <li><a class="nav-link scrollto" href="index.html#team">IT Team</a></li>
-              <li><a class="nav-link scrollto" href="messages.html">Messages</a></li>
-             <!--  <li class="dropdown"><a href="#"><span>Our Directors</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Directors 1</a></li>
-                  <li><a href="#">Directors 2</a></li>
-                  <li><a href="#">Directors 3</a></li>
-                  <li><a href="#">Directors 4</a></li>
-                  <li><a href="#">Directors 5</a></li>
-                </ul>
-              </li> -->
+                 <li><a class="nav-link scrollto" href="achievements.html">Awards and Achievements</a></li>
             </ul>         
           </li>
-
-          <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="index.html#portfolio">Our Business</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#pricing">Products</a></li> -->
+                   <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
            <li><a class="nav-link scrollto" href="blog1.html">Our Blogs</a></li>
+            <li class="dropdown"><a href="gallery.html"><span>Gallery</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="gallery.html">Image Gallery</a></li>
+               <li><a class="nav-link scrollto" href="video.html">Video Gallery</a></li>
+</ul>
+</li>
+          </li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+       <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <div class="header-social-links d-flex align-items-center">
-      
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.linkedin.com/company/mosharaf-groupbd/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-
     </div>
   </header>
 
-
-  <br><br><br>
-    
-    <!-- <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar">
-        <div class="custom-menu">
-          <button type="button" id="sidebarCollapse" class="btn btn-primary">
-            <i class="fa fa-bars"></i>
-            <span class="sr-only">Toggle Menu</span>
-          </button>
-        </div>
-        <div class="p-4">
-       <h1><a href="index.html" class="logo">Mosharaf Group<span>Blog Section</span></a></h1>
-    <ul class="list-unstyled components mb-5">
-
-    
-    <li class="active">
-      <a href="blog1.html"><span class="fa fa-star mr-3"></span> Information Technology</a>
-              
-            </li>
-             <li>
-                 <a href="blog2.html"><span class="fa fa-home mr-3"></span> Yarn Manufacturing</a>
-            </li>
-            <li>
-                <a href="blog3.html"><span class="fa fa-star mr-3"></span> Dyeing and Printing</a>
-            </li> 
-          </ul>
-        </div>
-    </nav>
- -->
-        <!-- Page Content  -->
-     
+  <br><br><br>     
      <style>
+      
 #mySidenav a {
   position: absolute;
   left: -100px;
@@ -144,6 +91,7 @@
   background-color: #04AA6D;
 }
 */
+
 #blog {
   top: 110px;
   background-color: #2196F3;
@@ -156,18 +104,38 @@
 
 #contact {
   top: 230px;
-  background-color: #555
+  background-color: orange
 }
+
+#storage {
+  top: 318px;
+  background-color: navy
+}
+
+#fer {
+  top: 380px;
+  background-color: green
+}
+
+
+
 </style>
 </head>
 
 <body>
 
 <div id="mySidenav" class="sidenav">
+
   <!-- <a href="#" id="about">About</a> -->
   <a href="#it" id="blog">IT</a>
   <a href="#yarn" id="projects">Yarn </a>
   <a href="#dye" id="contact">Dyeing and Printing</a>
+  <a href="#Cold" id="storage">Cold Storage </a>
+  <a href="#fertilizer" id="fer">Products</a>
+
+  <!-- <a href="#Cold" id="storage">Cold Storage </a>
+  <a href="#fertilizer" id="fer">Fertilizers</a> -->
+
 </div>
 
 <!-- <div style="margin-left:80px;">
@@ -180,8 +148,8 @@
         	<img src="assets/img/banner.jpg" class="img-fluid" style="max-width: 100%; height: auto;"><br><br>
 
 
-        <h1 class="mb-4" id="it">Information Technology</h1>
-        <p>The importance of information technology (IT) in everyday life cannot be overstated. IT has become an integral part of our personal, professional, and social lives, revolutionizing the way we communicate, work, and access information.
+    <h1 class="mb-4" id="it">Information Technology</h1>
+    <p>The importance of information technology (IT) in everyday life cannot be overstated. IT has become an integral part of our personal, professional, and social lives, revolutionizing the way we communicate, work, and access information.
 
 In today's digital age, IT is used in various aspects of our daily routines. From the moment we wake up to the time we go to bed, we are surrounded by IT applications and devices that simplify and enhance our lives. We rely on smartphones and computers for communication, entertainment, and accessing information from around the world within seconds.
 
@@ -193,6 +161,7 @@ In conclusion, the significance of IT in everyday life cannot be undermined. Its
 
 </p>
 <p>
+
 
 Information Technology (IT) has become an indispensable part of our everyday lives, playing a vital role in various aspects. The importance of IT lies in its ability to enhance efficiency, productivity, and connectivity across different domains.
 
@@ -206,20 +175,19 @@ The importance of IT cannot be overstated as it continues to shape our everyday 
       </div>
     </div>
 
+
     <div id="yarn" class="p-4 p-md-5 pt-5">
           <img src="https://content.jdmagicbox.com/comp/varanasi/y1/0542px542.x542.170915144017.m3y1/catalogue/mohini-zari-store-lahurabir-varanasi-dyed-yarn-manufacturers-v0weye6dl6.jpg?clr=" class="img-fluid" style="max-width: 100%; height: auto;"><br><br>
         <h1 class="mb-4">Yarn Manufacturing</h1>
         <p>Yarn manufacturing plays a crucial role in the textile industry, serving as the foundation for various products such as clothing, upholstery, and accessories. The quality of yarn directly impacts the final product's durability, appearance, and overall performance.
-
 To produce the best yarn, manufacturers employ various techniques that ensure consistency, strength, and uniformity. These techniques include spinning fibers into yarns using state-of-the-art machinery and employing quality control measures to detect any imperfections or inconsistencies.
-
 Choosing the best yarn for a specific application is essential to achieve optimal results. Factors such as fiber type, thickness, twist level, and finishing treatments need to be carefully considered to meet the desired characteristics of the end product.
-
 Manufacturers continuously strive to improve their techniques by investing in research and development to enhance yarn properties like softness, colorfastness, moisture-wicking capabilities, and eco-friendliness. This dedication ensures that consumers have access to high-quality yarns that meet their specific needs while also keeping up with evolving fashion trends.
-
 In conclusion, yarn manufacturing holds immense importance in the textile industry. By utilizing advanced techniques and selecting the best materials available on the market today, manufacturers can produce top-quality yarns that contribute significantly to creating durable and aesthetically pleasing finished products.</p>
       </div>
     </div>
+
+
 
   <div id="dye" class="p-4 p-md-5 pt-5">
           <img src="https://cdn.textileschool.com/wp-content/uploads/2011/06/1024px-Wool_skein_coloured_with_natural_dyes_indigo_lac_madder_and_tesu_by_Himalayan_Weavers_in_Mussoorie.jpg" class="img-fluid" style="max-width: 120%; height: 50%;"><br><br><br>
@@ -227,20 +195,48 @@ In conclusion, yarn manufacturing holds immense importance in the textile indust
         <h1 class="mb-4">Dyeing and Printing</h1>
         <p>Dyeing and printing are essential processes in the textile industry that add color and design to fabrics. These processes involve the application of dyes or pigments to fibers, yarns, or fabrics to achieve desired colors and patterns.
 
-Dyeing is the process of imparting color to textiles by immersing them in a dye solution. Various methods such as immersion dyeing, direct dyeing, and resist dyeing are employed depending on the type of fabric and desired outcome. Dyes can be natural or synthetic, with each offering unique properties and color fastness.</p>
-<p>
-
-Printing, on the other hand, involves applying colored patterns or designs onto fabric surfaces using various techniques such as screen printing, digital printing, block printing, or roller printing. This process allows for intricate designs and vibrant colors to be transferred onto textiles.
-
-Both dyeing and printing play a crucial role in determining the aesthetic appeal of textile products. They allow for endless possibilities in terms of color combinations, patterns, and creative expressions. Additionally, advancements in technology have led to more sustainable dyeing and printing methods that minimize environmental impact.
-
-In summary, dyeing and printing are integral processes in the textile industry that enable manufacturers to create visually appealing fabrics with customized colors and designs. These techniques continue to evolve alongside technological advancements while considering sustainability aspects for a more environmentally conscious approach.</p>
+          Dyeing is the process of imparting color to textiles by immersing them in a dye solution. Various methods such as immersion dyeing, direct dyeing, and resist dyeing are employed depending on the type of fabric and desired outcome. Dyes can be natural or synthetic, with each offering unique properties and color fastness.</p>
+          <p>
+        Printing, on the other hand, involves applying colored patterns or designs onto fabric surfaces using various techniques such as screen printing, digital printing, block printing, or roller printing. This process allows for intricate designs and vibrant colors to be transferred onto textiles.
+         Both dyeing and printing play a crucial role in determining the aesthetic appeal of textile products. They allow for endless possibilities in terms of color combinations, patterns, and creative expressions. Additionally, advancements in technology have led to more sustainable dyeing and printing methods that minimize environmental impact.
+           In summary, dyeing and printing are integral processes in the textile industry that enable manufacturers to create visually appealing fabrics with customized colors and designs. These techniques continue to evolve alongside technological advancements while considering sustainability aspects for a more environmentally conscious approach.</p>
       </div>
     </div>
 
+    <div id="Cold" class="p-4 p-md-5 pt-5">
+      <img src="https://stockarea.io/blogs/wp-content/uploads/2021/05/ImageForArticle_155111.jpg" class="img-fluid" style="max-width: 120%; height: 50%;"><br><br><br>
+
+    <h1 class="mb-4">Cold Storage</h1>
+    <p>The importance of cold storage cannot be understated, as it plays a critical role in preserving the quality and safety of various perishable items. Cold storage facilities provide controlled environments with low temperatures to inhibit the growth of bacteria, slow down spoilage, and extend the shelf life of products. Cold storage is particularly crucial in industries such as food and pharmaceuticals. In the food industry, cold storage helps prevent microbial contamination, maintain freshness, and preserve nutritional value. It allows producers, distributors, and retailers to safely store and transport perishable goods like meat, dairy, fruits, and vegetables. Furthermore, in the pharmaceutical industry, cold storage is essential for storing temperature-sensitive drugs and vaccines. Certain medications and vaccines require specific temperature conditions to maintain their potency and efficacy. Cold storage facilities ensure that these controlled conditions are maintained throughout the supply chain, protecting the integrity of these life-saving products. In addition to preserving product quality and safety, cold storage also helps manage inventory and reduce waste. By extending shelf life, businesses can optimize their supply chain, reduce the risk of stockouts, and minimize product spoilage, ultimately saving costs and maximizing profitability. Overall, the importance of cold storage lies in its ability to ensure the freshness, safety, and quality of perishable items, supporting industries that rely on preserving products in controlled environments.</p>
+  </div>
 
 
-      <footer id="footer">
+  <div id="fertilizer" class="p-4 p-md-5 pt-5">
+
+
+
+    <img src="https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt5a675a95be0c6263/638f5cff87f6b60df801d461/sunrise-AlinaMD-ThinkstockPhotos-479289505.jpg?width=850&auto=webp&quality=95&format=jpg&disable=upscale" class="img-fluid" style="max-width: 120%; height: 50%;"><br><br><br>
+
+
+  <h1 class="mb-4">Fertilizers Importance</h1>
+  
+  
+  <p>Fertilizers play a significant role in modern agriculture and are considered important for several reasons. 
+    First, fertilizers supply essential nutrients to the soil, which are necessary for plant growth and development. These nutrients, such as nitrogen, phosphorus, and potassium, are vital for plants to carry out essential functions like photosynthesis, root development, and fruit production. Fertilizers help replenish the nutrient levels in the soil, ensuring that plants have access to the necessary elements for healthy and robust growth.
+    Second, fertilizers help increase crop yields. By providing plants with the additional nutrients they need, fertilizers can enhance the productivity of agricultural systems. This is especially crucial in areas with nutrient-deficient soils, as fertilizers can compensate for the lack of nutrients and improve crop production.
+    Third, fertilizers can promote crop quality. By supplying plants with adequate nutrients, fertilizers can enhance the overall quality of agricultural products. This can include traits such as size, color, taste, and nutritional value.
+    <p>
+
+    Moreover, fertilizers can contribute to sustainable agriculture practices. By carefully applying fertilizers, farmers can optimize nutrient use efficiency, reducing the risk of nutrient runoff and minimizing environmental impacts. This includes adopting precision agriculture techniques like soil testing and using fertilizer formulations and application methods that minimize waste.
+    However, it is important to note that the excessive and improper use of fertilizers can lead to environmental pollution and ecological imbalances. Overuse of fertilizers can lead to nutrient runoff into water bodies, causing water pollution and harming aquatic ecosystems. Therefore, proper nutrient management practices and responsible fertilizer use are essential to maximize the benefits while minimizing potential negative impacts.
+    In conclusion, fertilizers are important for providing essential nutrients to plants, increasing crop yields, and improving crop quality. When used responsibly, fertilizers can play a crucial role in supporting sustainable agriculture practices.</p>
+
+  </p>
+  </div>
+
+</div>
+
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -270,6 +266,7 @@ In summary, dyeing and printing are integral processes in the textile industry t
             </div>
           </div>
 
+
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -280,6 +277,7 @@ In summary, dyeing and printing are integral processes in the textile industry t
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
+
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
