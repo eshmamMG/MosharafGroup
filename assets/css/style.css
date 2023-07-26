@@ -701,7 +701,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #009cea;
+  color: #005899;
+  
 }
 
 .portfolio #portfolio-flters li:last-child {
