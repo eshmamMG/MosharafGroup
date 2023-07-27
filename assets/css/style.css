@@ -484,10 +484,12 @@ section {
   margin-top: 40px;
 }
 
+
 .about .container {
   background-color: #f7f8f9;
   padding: 60px 50px;
 }
+
 
 @media (max-width: 992px) {
   .about .container {
@@ -520,6 +522,23 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+
+.concerns .row:hover
+{
+font-size: 110%;
+background-color: whitesmoke;
+}
+
+
+
+
+
+
+/* .about .content p:hover {
+  margin-bottom: 0;
+  font-size: 100%;
+} */
 
 /*--------------------------------------------------------------
 # Features
