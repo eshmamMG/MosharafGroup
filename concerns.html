@@ -102,7 +102,9 @@
             background-color: #555;
         }
 
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: 650px) 
+        
+        {
             .column {
                 width: 100%;
                 display: block;
@@ -112,6 +114,8 @@
 
 
         #more {display: none;}
+
+    
     </style>
 
     <meta charset="utf-8">
@@ -138,12 +142,6 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="sb/css/style.css">
- -->
-    <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -157,23 +155,20 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-                <li class="dropdown"><a href="index.html#about"><span>About</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a class="nav-link scrollto" href="md.html">Our Respected MD</a></li>
                         <li><a class="nav-link scrollto" href="directors.html">Honourable Directors</a></li>
                         <li><a class="nav-link scrollto" href="achievements.html">Awards and Achievements</a></li>
-                        <li><a class="nav-link scrollto" href="about.html#concerns">Our concerns</a></li>
+                        <li><a class="nav-link scrollto" href="concerns.html">Our concerns</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="gallery.html">Our Products</a></li>
                 <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 <li><a class="nav-link scrollto" href="blog1.html">Our Blogs</a></li>
-
                 <li class="dropdown"><a href="gallery.html"><span>Gallery</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-
                         <li><a class="nav-link scrollto" href="video.html">Video Gallery</a></li>
                     </ul>
                 </li>
@@ -194,10 +189,7 @@
     <!-- <h2 style="text-align:center">Our Team</h2> -->
     <div class="row">
         <div class="column">
-            <div class="card">
-
-            
-               
+            <div class="card">       
                     <!-- ======= About Section ======= -->
                     <section id="concerns" class="concerns">
                         <div class="container">
@@ -302,10 +294,14 @@
         var btnText = document.getElementById("myBtn");
 
         if (dots.style.display === "none") {
+
             dots.style.display = "inline";
             btnText.innerHTML = "Read more";
             moreText.style.display = "none";
-        } else {
+        }
+        
+        else {
+
             dots.style.display = "none";
             btnText.innerHTML = "Read less";
             moreText.style.display = "inline";
@@ -314,7 +310,7 @@
 </script>
 
 
-                                        <!-- <a href="about.html" class="learnmore">Learn More</a> -->
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -460,7 +456,7 @@
                 <!-- Template Main JS File -->
                 <script src="assets/js/main.js"></script>
 
-</div> -->
+</div> 
 
 
 </body>
