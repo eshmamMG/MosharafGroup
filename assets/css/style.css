@@ -610,11 +610,15 @@ h6 {
 }
 
 #hero .hero-img {
+ 
   text-align: center;
+ 
 }
 
 #hero .hero-img img {
-  width: 70%;
+  width: 80%;
+  border: 4px  blue;
+  
 }
 
 .learnmore{
@@ -890,7 +894,8 @@ background-color: whitesmoke;
   color: #2282ff;
 }
 
-.services .icon-box-blue:hover {
+.services .icon-box-blue:hover
+{
   border-color: #2282ff;
    border-width: 10px;
 }
@@ -926,7 +931,8 @@ background-color: whitesmoke;
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #005899;
+ background-color: #005899;
+ color:white;
   
 }
 
