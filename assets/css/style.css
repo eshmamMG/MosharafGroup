@@ -838,7 +838,15 @@ background-color: whitesmoke;
 
 .services .icon-box:hover {
   transform: translateY(-10px);
+  /* border-bottom: 9px solid #005899; */
+  background-image:url(https://img.freepik.com/free-vector/modern-white-background-abstract_343694-1668.jpg);
+ background-position: center; 
+ color: white;
+ /* background-image:url("../img/concerns/mnapp.jpg");  */
+  
 }
+
+
 
 .services .icon i {
   font-size: 48px;
@@ -857,7 +865,7 @@ background-color: whitesmoke;
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 35px;
   line-height: 28px;
   margin-bottom: 0;
 }
